@@ -1,0 +1,97 @@
+.checkout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 30px auto;
+  max-width: 1000px;
+}
+
+.left {
+  flex-basis: 50%;
+  margin-right: 20px;
+}
+
+.order-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.order-summary h2 {
+  text-align: left;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.subtotal {
+  text-align: right;
+}
+
+.checkout table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.checkout th,
+.checkout td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.checkout th {
+  font-weight: bold;
+}
+
+.checkout tfoot td {
+  text-align: right;
+  border-top: 1px solid #ddd;
+  font-weight: bold;
+}
+
+.checkout .payment-methods {
+  margin-top: 20px;
+}
+
+.checkout button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-top: 20px;
+}
+
+.checkout button:hover {
+  background-color: #45a049;
+}
+
+.checkout input[type="radio"] {
+  margin-right: 5px;
+}
+
+.checkout label {
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.checkout .terms-and-conditions {
+  margin-top: 20px;
+}
+
+.checkout .terms-and-conditions label {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.checkout .terms-and-conditions input[type="checkbox"] {
+  margin-right: 5px;
+}

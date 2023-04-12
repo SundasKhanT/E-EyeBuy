@@ -1,0 +1,40 @@
+.filter_menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space space-evenly;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .filter_menu span {
+    margin-right: 0.2rem;
+    font-weight: bold;
+  }
+  
+  .filter_menu select {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+  }
+  
+  .filter_menu button {
+    background-color: #2196f3;
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .filter_menu button:hover {
+    background-color: #0d8ddb;
+  }
+  

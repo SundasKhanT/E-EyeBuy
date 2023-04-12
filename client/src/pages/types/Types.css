@@ -1,0 +1,42 @@
+.types{
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px auto;
+}
+.types form{
+    width: 295px;
+    margin-bottom: 20px;
+}
+.types label{
+    display: block;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.types input, button{
+    height: 35px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555;
+}
+.types input{
+    width: 210px;
+}
+.types button{
+    width: 70px;
+    background: #555;
+    color: white;
+    margin-left: 10px;
+}
+.types .row{
+    min-width: 290px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
